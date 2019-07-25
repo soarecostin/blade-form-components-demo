@@ -15,20 +15,24 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/demo-bootstrap', function () {
+$errors = new Illuminate\Support\MessageBag();
+$errors->add('name', 'The name field is required');
+
+Route::get('/demo-bootstrap', function () use ($errors) {
     config(['blade-form-components.theme' => 'bootstrap']);
 
-    return view('demo-bootstrap');
+    return view('demo-bootstrap')->withErrors($errors);
 })->name('demo-bootstrap');
 
-Route::get('/demo-bulma', function () {
+Route::get('/demo-bulma', function () use ($errors) {
     config(['blade-form-components.theme' => 'bulma']);
 
-    return view('demo-bulma');
+    return view('demo-bulma')->withErrors($errors);
 })->name('demo-bulma');
 
-Route::get('/demo-tailwind', function () {
+Route::get('/demo-tailwind', function () use ($errors) {
+    
     config(['blade-form-components.theme' => 'tailwind']);
     
-    return view('demo-tailwind');
+    return view('demo-tailwind')->withErrors($errors);
 })->name('demo-tailwind');

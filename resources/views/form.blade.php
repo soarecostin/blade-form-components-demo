@@ -1,4 +1,4 @@
-@form('open')
+@form('open', ['errors' => $errors])
 
     @form('input', ['name' => 'id', 'disabled' => true, 'value' => 1])
     
