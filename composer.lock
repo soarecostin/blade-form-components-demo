@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "94d4bf9ac7f4a933030e46a346ee2917",
+    "content-hash": "21873788e9119e068595d29858e83086",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1411,6 +1411,61 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "soarecostin/blade-form-components",
+            "version": "v0.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/soarecostin/blade-form-components.git",
+                "reference": "8604ee4e3380e3c5ed09c8608c2260fc200802df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/soarecostin/blade-form-components/zipball/8604ee4e3380e3c5ed09c8608c2260fc200802df",
+                "reference": "8604ee4e3380e3c5ed09c8608c2260fc200802df",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/support": "5.6.*|5.7.*|5.8.*",
+                "laravel/framework": "~5.6.0|~5.7.0|~5.8.0",
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "orchestra/testbench": "3.6.*|3.7.*|3.8.*",
+                "phpunit/phpunit": "^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "SoareCostin\\BladeFormComponents\\BladeFormComponentsServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "SoareCostin\\BladeFormComponents\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Costin Soare",
+                    "role": "Developer",
+                    "email": "soarecostin@gmail.com"
+                }
+            ],
+            "description": "Laravel Blade form components",
+            "homepage": "https://github.com/soarecostin/blade-form-components",
+            "keywords": [
+                "blade-form-components",
+                "soarecostin"
+            ],
+            "time": "2019-07-23T12:41:38+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

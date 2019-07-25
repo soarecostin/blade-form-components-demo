@@ -1,0 +1,6 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/app-bootstrap.css": "/css/app-bootstrap.css",
+    "/css/app-bulma.css": "/css/app-bulma.css",
+    "/css/app-tailwind.css": "/css/app-tailwind.css"
+}
