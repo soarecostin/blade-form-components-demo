@@ -9,10 +9,7 @@
     @form('email', ['name' => 'email', 'required' => true, 'placeholder' => 'john.doe@gmail.com'])
 
     @form('input', ['name' => 'price', 'class' => 'is-rounded is-expanded', 'required' => true,
-        'addons' => [
-            'prepend' => '<span class="select"><select><option>$</option><option>£</option><option>€</option></select></span>',
-            'append' => '<span class="button is-static">.00</span>'
-        ],
+        'addons' => $priceAddons,
     ])
 
     @form('textarea', ['name' => 'message', 'rows' => 6])

@@ -15,7 +15,12 @@
                 <div class="col-lg-8 col-12 p-5">
                     <div class="card">
                         <div class="card-body">
-                            @include ('form')
+                            @include ('form', [
+                                'priceAddons' => [
+                                    'prepend' => '<select class="form-control input-group-text"><option>$</option><option>£</option><option>€</option></select>',
+                                    'append' => '<span class="input-group-text">.00</span>'
+                                ]
+                            ])
                         </div>
                     </div>
                 </div>
