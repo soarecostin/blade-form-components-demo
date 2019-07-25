@@ -24,14 +24,20 @@
         <header class="masthead">
             <div class="container h-100">
                 <div class="row h-100 align-items-center">
-                <div class="col-12 text-center">
-                    <h1 class="font-weight-light">Blade Form Components Demo</h1>
-                    <p class="lead">
-                        <a class="btn btn-outline-dark" href="{{ route('demo-bootstrap') }}">Bootstrap</a>&nbsp;
-                        <a class="btn btn-outline-dark" href="{{ route('demo-bulma') }}">Bulma</a>&nbsp;
-                        <a class="btn btn-outline-dark" href="{{ route('demo-tailwind') }}">Tailwind</a>
-                    </p>
-                </div>
+                    <div class="col-12 text-center">
+                        <h1 class="font-weight-light">Blade Form Components Demo</h1>
+                        <p class="lead">
+                            <a class="btn btn-outline-dark" href="{{ route('demo-bootstrap') }}">Bootstrap</a>&nbsp;
+                            <a class="btn btn-outline-dark" href="{{ route('demo-bulma') }}">Bulma</a>&nbsp;
+                            <a class="btn btn-outline-dark" href="{{ route('demo-tailwind') }}">Tailwind</a>
+                        </p>
+                        <p class="mt-5">
+                            <a class="btn btn-dark" href="https://github.com/soarecostin/blade-form-components" target="_blank">View on Github</a>
+                        </p>
+                        <p class="">
+                            by <a class="link-unstyled" href="https://costin.soa.re" target="_blank">Costin Soare</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </header>
