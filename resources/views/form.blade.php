@@ -12,7 +12,7 @@
         'addons' => $priceAddons,
     ])
 
-    @form('textarea', ['name' => 'message', 'rows' => 6])
+    @form('textarea', ['name' => 'message', 'rows' => 6, 'desc' => 'Let us know how we can help you below'])
 
     @form('select', [
         'name' => 'language',
