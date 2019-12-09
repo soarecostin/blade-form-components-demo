@@ -22,10 +22,9 @@
         "sass": "^1.15.2",
         "sass-loader": "^7.1.0",
         "vue": "^2.5.17",
-        "vue-template-compiler": "^2.6.10"
-    },
-    "dependencies": {
+        "vue-template-compiler": "^2.6.10",
         "bulma": "^0.7.5",
         "tailwindcss": "^1.0.5"
-    }
+    },
+    "dependencies": {}
 }
